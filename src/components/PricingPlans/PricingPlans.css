@@ -1,0 +1,29 @@
+.plan-btn{
+border-radius: 30px;
+height: 55px;
+}
+.Monthly-btn{
+    border-radius: 30px;
+background-color:#384BFF ;
+color: white;
+}
+.hand{
+    width: 150px;;
+    left: -100px;
+    top: 500px;
+}
+.diamond{
+    right: 0;
+    width: 50px;
+    top: -10px;
+}
+
+@media (max-width: 768px){
+    .hand{
+       display: none;
+    }
+    .diamond{
+       display: none;
+    }
+  
+}
